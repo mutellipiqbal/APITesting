@@ -1,4 +1,4 @@
-package com.myapi.test;
+package com.myapi.httpRequest;
 
 import model.Student;
 import io.restassured.RestAssured;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
 
-public class StudentPostTest {
+public class UpdateStudent  {
     @BeforeClass
     public  static void init() {
         RestAssured.baseURI = "http://localhost";
@@ -19,17 +19,18 @@ public class StudentPostTest {
     }
 
     @Test
-    public void createNewStudent(){
+    public void updateStudent(){
         Student student= new Student();
         student.setFirstName("mutellip");
         student.setLastName("ikbal");
-        student.setEmail("ikbal@gmail.com");
+        student.setEmail("mutellipikbal@gmail.com");
         student.setProgramme("IT science");
 
         ArrayList<String> courses= new ArrayList<String>();
         courses.add("Java");
         courses.add("Python");
         courses.add("c++");
+        courses.add("JavaScript");
 
         student.setCourses(courses);
 
@@ -37,9 +38,9 @@ public class StudentPostTest {
                 .contentType(ContentType.JSON)
                 .when()
                 .body(student)
-                .post()
+                .put("/101")
                 .then()
-                .statusCode(201);
+                .statusCode(200);
 
     }
 }

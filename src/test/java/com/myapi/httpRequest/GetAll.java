@@ -1,4 +1,4 @@
-package com.myapi.test;
+package com.myapi.httpRequest;
 
 import base.TestBase;
 import io.restassured.response.Response;

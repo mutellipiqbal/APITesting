@@ -1,4 +1,4 @@
-package com.myapi.test;
+package com.myapi.httpRequest;
 
 import model.Student;
 import io.restassured.RestAssured;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
 
-public class UpdateStudent  {
+public class PartialUpdate {
     @BeforeClass
     public  static void init() {
         RestAssured.baseURI = "http://localhost";
@@ -29,7 +29,7 @@ public class UpdateStudent  {
         ArrayList<String> courses= new ArrayList<String>();
         courses.add("Java");
         courses.add("Python");
-        courses.add("c++");
+        courses.add("C++");
         courses.add("JavaScript");
 
         student.setCourses(courses);
@@ -38,7 +38,7 @@ public class UpdateStudent  {
                 .contentType(ContentType.JSON)
                 .when()
                 .body(student)
-                .put("/101")
+                .patch("/101")
                 .then()
                 .statusCode(200);
 
