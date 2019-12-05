@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 
 public class Extract02 {
 
-    String APIKEY="75e3u4sgb2khg673cbv2gjup";
+        String APIKEY="75e3u4sgb2khg673cbv2gjup";
 
     @BeforeClass
     public static void init(){

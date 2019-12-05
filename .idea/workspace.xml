@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/SoftAssertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/DeleteStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/DeleteStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/GetAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/GetAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/GetAllStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/GetAllStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/PartialUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/PartialUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/StudentPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/StudentPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/test/UpdateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/UpdateStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/DeleteStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/GetAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/GetAllStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/PartialUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/StudentPostTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/test/UpdateStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract02.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,82 +66,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Extract02.endsWithFinding">
-    <configuration name="Extract02.endsWithFinding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SoftAssertion.softAssertion">
+    <configuration name="Assert02.keyValueEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.jsonPath.*" />
+          <option name="PATTERN" value="com.myapi.assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract02" />
-      <option name="METHOD_NAME" value="endsWithFinding" />
+      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
+      <option name="METHOD_NAME" value="keyValueEntry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extract02.findSomeItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Assert02.logicalAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.jsonPath.*" />
+          <option name="PATTERN" value="com.myapi.assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract02" />
-      <option name="METHOD_NAME" value="findSomeItems" />
+      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
+      <option name="METHOD_NAME" value="logicalAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extract02.roughFinding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Assert02.multipleAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.jsonPath.*" />
+          <option name="PATTERN" value="com.myapi.assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract02" />
-      <option name="METHOD_NAME" value="roughFinding" />
+      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
+      <option name="METHOD_NAME" value="multipleAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extract02.sellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Assert02.multpleAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.jsonPath.*" />
+          <option name="PATTERN" value="com.myapi.assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract02" />
-      <option name="METHOD_NAME" value="sellPrice" />
+      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
+      <option name="METHOD_NAME" value="multpleAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Extract02.sellPriceList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssertion.softAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.jsonPath.*" />
+          <option name="PATTERN" value="com.myapi.assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract02" />
-      <option name="METHOD_NAME" value="sellPriceList" />
+      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.SoftAssertion" />
+      <option name="METHOD_NAME" value="softAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Extract02.endsWithFinding" />
-        <item itemvalue="JUnit.Extract02.roughFinding" />
-        <item itemvalue="JUnit.Extract02.sellPriceList" />
-        <item itemvalue="JUnit.Extract02.sellPrice" />
-        <item itemvalue="JUnit.Extract02.findSomeItems" />
+        <item itemvalue="JUnit.SoftAssertion.softAssertion" />
+        <item itemvalue="JUnit.Assert02.logicalAssertion" />
+        <item itemvalue="JUnit.Assert02.multipleAssertion" />
+        <item itemvalue="JUnit.Assert02.multpleAssertion" />
+        <item itemvalue="JUnit.Assert02.keyValueEntry" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +167,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575167857160</updated>
-      <workItem from="1575167862196" duration="22105000" />
+      <workItem from="1575167862196" duration="24055000" />
+      <workItem from="1575495625705" duration="5291000" />
     </task>
     <servers />
   </component>
@@ -191,7 +180,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
