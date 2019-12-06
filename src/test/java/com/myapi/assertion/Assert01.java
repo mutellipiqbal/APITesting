@@ -80,7 +80,7 @@ public class Assert01 {
                 .get("/search")
                 .then()
                 .body("items.name", hasItems("Apple iPod touch 7th Generation 32GB - Space Gray (New Model)", "Refurbished Apple iPod Touch 6th Generation 16GB"));
-        //hasitem chek a single value. Hasitems check multiple value.
+        //hasitem checks a single value. Hasitems check multiple value.
 
     }
 

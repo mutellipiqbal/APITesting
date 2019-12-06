@@ -1,5 +1,6 @@
 package com.myapi.httpRequest;
 
+import io.restassured.response.Response;
 import model.Student;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -33,7 +34,7 @@ public class StudentPostTest {
 
         student.setCourses(courses);
 
-        given()
+       given()
                 .contentType(ContentType.JSON)
                 .when()
                 .body(student)

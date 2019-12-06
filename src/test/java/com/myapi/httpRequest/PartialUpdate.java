@@ -26,6 +26,7 @@ public class PartialUpdate {
         student.setEmail("mutellipikbal@gmail.com");
         student.setProgramme("IT science");
 
+
         ArrayList<String> courses= new ArrayList<String>();
         courses.add("Java");
         courses.add("Python");

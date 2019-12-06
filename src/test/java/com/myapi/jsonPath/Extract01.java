@@ -85,7 +85,7 @@ public class Extract01 {
 
     @Test
     public void getInArrayItems02() {
-        HashMap<String, String> giftOptions = given()
+        HashMap<String, String> usingMap = given()
                 .queryParam("query", "ipod")
                 .queryParam("apikey", APIKEY)
                 .queryParam("format", "json")
@@ -93,9 +93,9 @@ public class Extract01 {
                 .get("/search")
                 .then()
                 .extract()
-                .path("items[0].giftOptions");
+                .path("items[0].imageEntities[0]");
 
-        System.out.println(giftOptions);
+        System.out.println(usingMap);
     }
 
     @Test

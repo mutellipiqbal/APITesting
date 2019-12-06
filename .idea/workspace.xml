@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/RequestAndResponseSpecification/RequestSpecific01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/RequestAndResponseSpecification/ResponseSpec01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/rootPath/RootPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/CompleteAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/CompleteAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/PartialUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/PartialUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/StudentPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/StudentPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/PartialUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/PartialUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/StudentPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/StudentPostTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract01.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +46,20 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.myapi.logging" />
-      <recent name="util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\myApiPractice\target" />
       <recent name="D:\IdeaProjects\myApiPractice\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myapi.equestSpecification" />
+      <recent name="com.myapi.logging" />
+      <recent name="util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,82 +74,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SoftAssertion.softAssertion">
-    <configuration name="Assert02.keyValueEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ResponseSpec01.requestSpec">
+    <configuration name="Extract01.getInArrayItems02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.jsonPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
-      <option name="METHOD_NAME" value="keyValueEntry" />
+      <option name="PACKAGE_NAME" value="com.myapi.jsonPath" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonPath.Extract01" />
+      <option name="METHOD_NAME" value="getInArrayItems02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assert02.logicalAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggingResponse.responseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
-      <option name="METHOD_NAME" value="logicalAssertion" />
+      <option name="PACKAGE_NAME" value="com.myapi.logging" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.logging.LoggingResponse" />
+      <option name="METHOD_NAME" value="responseBody" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assert02.multipleAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestSpecific01.requestSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.RequestAndResponseSpecification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
-      <option name="METHOD_NAME" value="multipleAssertion" />
+      <option name="PACKAGE_NAME" value="com.myapi.RequestAndResponseSpecification" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.RequestAndResponseSpecification.RequestSpecific01" />
+      <option name="METHOD_NAME" value="requestSpec" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assert02.multpleAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseSpec01.requestSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.RequestAndResponseSpecification.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert02" />
-      <option name="METHOD_NAME" value="multpleAssertion" />
+      <option name="PACKAGE_NAME" value="com.myapi.RequestAndResponseSpecification" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.RequestAndResponseSpecification.ResponseSpec01" />
+      <option name="METHOD_NAME" value="requestSpec" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssertion.softAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RootPath.rootPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.rootPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.SoftAssertion" />
-      <option name="METHOD_NAME" value="softAssertion" />
+      <option name="PACKAGE_NAME" value="com.myapi.rootPath" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.rootPath.RootPath" />
+      <option name="METHOD_NAME" value="rootPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SoftAssertion.softAssertion" />
-        <item itemvalue="JUnit.Assert02.logicalAssertion" />
-        <item itemvalue="JUnit.Assert02.multipleAssertion" />
-        <item itemvalue="JUnit.Assert02.multpleAssertion" />
-        <item itemvalue="JUnit.Assert02.keyValueEntry" />
+        <item itemvalue="JUnit.ResponseSpec01.requestSpec" />
+        <item itemvalue="JUnit.RequestSpecific01.requestSpec" />
+        <item itemvalue="JUnit.RootPath.rootPath" />
+        <item itemvalue="JUnit.Extract01.getInArrayItems02" />
+        <item itemvalue="JUnit.LoggingResponse.responseBody" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575167857160</updated>
       <workItem from="1575167862196" duration="24055000" />
-      <workItem from="1575495625705" duration="5291000" />
+      <workItem from="1575495625705" duration="22659000" />
     </task>
     <servers />
   </component>
