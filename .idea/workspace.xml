@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/RequestAndResponseSpecification/RequestSpecific01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/RequestAndResponseSpecification/ResponseSpec01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/rootPath/RootPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver-v0.26.0-linux32.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/fileDownload/FileDownloadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homeWork/GetNeo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/Assert01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/CompleteAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/assertion/CompleteAssertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/PartialUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/PartialUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/StudentPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/httpRequest/StudentPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonPath/Extract01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/PartialUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/PartialUpdate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/StudentPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/StudentPostTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/RequestAndResponseSpecification/ResponseSpec01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myapi/RequestAndResponseSpecification/ResponseSpec01.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -46,20 +39,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice" />
+      <recent name="D:\IdeaProjects\myApiPractice\src" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myApiPractice\target" />
-      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.myapi.equestSpecification" />
       <recent name="com.myapi.logging" />
       <recent name="util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice" />
+      <recent name="D:\IdeaProjects\myApiPractice\target" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ResponseSpec01.requestSpec">
+  <component name="RunManager" selected="JUnit.FileDownloadExample.downloadCompare">
     <configuration name="Extract01.getInArrayItems02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
@@ -91,65 +87,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggingResponse.responseBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.logging.*" />
+          <option name="PATTERN" value="com.myapi.fileDownload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.logging" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.logging.LoggingResponse" />
-      <option name="METHOD_NAME" value="responseBody" />
+      <option name="PACKAGE_NAME" value="com.myapi.fileDownload" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.fileDownload.FileDownloadExample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDownloadExample.downloadCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.fileDownload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapi.fileDownload" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.fileDownload.FileDownloadExample" />
+      <option name="METHOD_NAME" value="downloadCompare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestSpecific01.requestSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetNeo.getNeoList0Object" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.RequestAndResponseSpecification.*" />
+          <option name="PATTERN" value="homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.RequestAndResponseSpecification" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.RequestAndResponseSpecification.RequestSpecific01" />
-      <option name="METHOD_NAME" value="requestSpec" />
+      <option name="PACKAGE_NAME" value="homeWork" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.GetNeo" />
+      <option name="METHOD_NAME" value="getNeoList0Object" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseSpec01.requestSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetNeo.getNeoListUsingMap02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.RequestAndResponseSpecification.*" />
+          <option name="PATTERN" value="homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.RequestAndResponseSpecification" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.RequestAndResponseSpecification.ResponseSpec01" />
-      <option name="METHOD_NAME" value="requestSpec" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RootPath.rootPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapi.rootPath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.rootPath" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.rootPath.RootPath" />
-      <option name="METHOD_NAME" value="rootPath" />
+      <option name="PACKAGE_NAME" value="homeWork" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.GetNeo" />
+      <option name="METHOD_NAME" value="getNeoListUsingMap02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResponseSpec01.requestSpec" />
-        <item itemvalue="JUnit.RequestSpecific01.requestSpec" />
-        <item itemvalue="JUnit.RootPath.rootPath" />
+        <item itemvalue="JUnit.FileDownloadExample.downloadCompare" />
+        <item itemvalue="JUnit.FileDownloadExample" />
+        <item itemvalue="JUnit.GetNeo.getNeoListUsingMap02" />
+        <item itemvalue="JUnit.GetNeo.getNeoList0Object" />
         <item itemvalue="JUnit.Extract01.getInArrayItems02" />
-        <item itemvalue="JUnit.LoggingResponse.responseBody" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575167857160</updated>
       <workItem from="1575167862196" duration="24055000" />
-      <workItem from="1575495625705" duration="22659000" />
+      <workItem from="1575495625705" duration="24031000" />
+      <workItem from="1575751539147" duration="9183000" />
     </task>
     <servers />
   </component>
@@ -195,5 +191,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/myapi/fileDownload/FileDownloadExample.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
