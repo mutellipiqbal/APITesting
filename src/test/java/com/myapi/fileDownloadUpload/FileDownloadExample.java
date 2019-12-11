@@ -1,6 +1,5 @@
-package com.myapi.fileDownload;
+package com.myapi.fileDownloadUpload;
 
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import java.io.File;

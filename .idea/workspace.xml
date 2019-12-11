@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/addCookie/AddingCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/paramitezation/ParamererizationWithObjectArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/paramitezation/ParameterizedPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/authentication/TokenAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/responseTime/ResponseTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homeWork/GetNeo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homeWork/GetNeo.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,23 +39,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myApiPractice" />
-      <recent name="D:\IdeaProjects\myApiPractice\src" />
-      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice" />
+      <recent name="D:\IdeaProjects\myApiPractice\target" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.myapi.equestSpecification" />
       <recent name="com.myapi.logging" />
       <recent name="util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\myApiPractice" />
-      <recent name="D:\IdeaProjects\myApiPractice\target" />
-      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
+      <recent name="D:\IdeaProjects\myApiPractice\src" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,54 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParamererizationWithObjectArray.test">
-    <configuration name="FileDownloadExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapi.fileDownload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.fileDownload" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.fileDownload.FileDownloadExample" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDownloadExample.downloadCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapi.fileDownload.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.fileDownload" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.fileDownload.FileDownloadExample" />
-      <option name="METHOD_NAME" value="downloadCompare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetNeo.getNeoListUsingMap02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homeWork" />
-      <option name="MAIN_CLASS_NAME" value="homeWork.GetNeo" />
-      <option name="METHOD_NAME" value="getNeoListUsingMap02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Proxy.sendParam">
     <configuration name="ParamererizationWithObjectArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
@@ -136,17 +87,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizedPath.pathParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Proxy.sendParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.paramitezation.*" />
+          <option name="PATTERN" value="com.myapi.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.paramitezation" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.paramitezation.ParameterizedPath" />
-      <option name="METHOD_NAME" value="pathParam" />
+      <option name="PACKAGE_NAME" value="com.myapi.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.proxy.Proxy" />
+      <option name="METHOD_NAME" value="sendParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseTime.jUnitAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.responseTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapi.responseTime" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.responseTime.ResponseTime" />
+      <option name="METHOD_NAME" value="jUnitAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseTime.responseTimeAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.responseTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapi.responseTime" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.responseTime.ResponseTime" />
+      <option name="METHOD_NAME" value="responseTimeAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenAuth.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapi.authentication" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.authentication.TokenAuth" />
+      <option name="METHOD_NAME" value="upload" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Proxy.sendParam" />
+        <item itemvalue="JUnit.ResponseTime.responseTimeAssert" />
+        <item itemvalue="JUnit.ResponseTime.jUnitAssert" />
+        <item itemvalue="JUnit.TokenAuth.upload" />
         <item itemvalue="JUnit.ParamererizationWithObjectArray.test" />
-        <item itemvalue="JUnit.ParameterizedPath.pathParam" />
-        <item itemvalue="JUnit.FileDownloadExample.downloadCompare" />
-        <item itemvalue="JUnit.FileDownloadExample" />
-        <item itemvalue="JUnit.GetNeo.getNeoListUsingMap02" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,7 @@
       <workItem from="1575167862196" duration="24055000" />
       <workItem from="1575495625705" duration="24031000" />
       <workItem from="1575751539147" duration="9263000" />
-      <workItem from="1575931678765" duration="6376000" />
+      <workItem from="1575931678765" duration="12005000" />
     </task>
     <servers />
   </component>
