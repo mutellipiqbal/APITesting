@@ -1,0 +1,14 @@
+
+ 1. add fllowing code to pom.xml
+ <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>3.0.0-M4</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    2. put the command to terminal
+    mvn surefire-report:report

@@ -33,6 +33,7 @@ public class Proxy {
     }
 
     @Test
+
     public void proxySpec(){
         //third way: using ProxySpecification class
         ProxySpecification rs= new ProxySpecification("localhost", 5555,"http");

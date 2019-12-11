@@ -2,59 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/279c5cc0-4f53-4f86-bfad-20b06c40cdb1-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2d9ebbcc-9cf8-42a0-a27d-5a0d08da88c9-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/55848959-9b7c-48cf-9cd8-55d4a4d6b657-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ef0c1e69-7cc8-42f6-89cd-a0e512fe9007-attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/reporting/SimpleAlluredReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/reporting/postman_newman" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/reporting/surefireReport" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ConfigurationReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/configuration.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/myApiPractice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/BookIt_With_Bearer_Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/DeserializingJsonToJavaObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Full_Cycle_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/HR_ORDS_REST_API_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/HamCrestLibrary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/JsonSchemaValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RestApiDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RestPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/RoleBasedAccessControlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SendingPostRequests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/SpartanRest_Weekend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/Spartan_Rest_API_Sunday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestPractice/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/RequestAndResponseSpecification/RequestSpecific01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/RequestAndResponseSpecification/ResponseSpec01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/addCookie/AddingCookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/assertion/Assert01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/assertion/Assert02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/assertion/CompleteAssertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/assertion/SoftAssertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/authentication/TokenAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/fileDownload/FileDownloadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/DeleteStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/GetAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/GetAllStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/PartialUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/StudentPostTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/httpRequest/UpdateStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/jsonPath/Extract02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/logging/LoggingInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/logging/LoggingResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/paramitezation/ParamererizationWithObjectArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/paramitezation/ParameterizedPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/proxy/Proxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/responseTime/ResponseTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myapi/rootPath/RootPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +74,21 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.Assert01">
+    <configuration name="AddingCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.addCookie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myapi.addCookie" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.addCookie.AddingCookies" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Assert01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
@@ -148,22 +115,6 @@
       <option name="PACKAGE_NAME" value="com.myapi.assertion" />
       <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert01" />
       <option name="METHOD_NAME" value="jUnitAssert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Proxy.sendParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapi.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.proxy.Proxy" />
-      <option name="METHOD_NAME" value="sendParam" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Assert01" />
+        <item itemvalue="JUnit.AddingCookies" />
         <item itemvalue="JUnit.SimpleAlluredReport.simpleReport" />
         <item itemvalue="JUnit.SimpleAlluredReport.jUnitAssert" />
         <item itemvalue="JUnit.Assert01.jUnitAssert" />
-        <item itemvalue="JUnit.Proxy.sendParam" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +175,7 @@
       <workItem from="1575167862196" duration="24055000" />
       <workItem from="1575495625705" duration="24031000" />
       <workItem from="1575751539147" duration="9263000" />
-      <workItem from="1575931678765" duration="16530000" />
+      <workItem from="1575931678765" duration="19771000" />
     </task>
     <servers />
   </component>
