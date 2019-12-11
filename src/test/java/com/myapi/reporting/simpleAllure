@@ -1,0 +1,35 @@
+Rest Assured and Allure Report is two popular tool for testing.Rest Assured is using for API testing and Allure Report is using for create detailed reports about tests.To see our request and response more detailed using this tools we need to add a line to our Rest Assured tests.
+
+.filter(new AllureRestAssured())
+First add maven dependeny in your pom.xml file.
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-rest-assured -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-rest-assured</artifactId>
+    <version>2.13.0</version>
+</dependency>
+Simple example for how to use
+
+@Test
+public void planetsCheck() {
+    Response response = given()
+            .filter(new AllureRestAssured())
+            .when()
+            .get("https://swapi.co/api/").then()
+            .extract().response();
+    Assert.assertEquals(response.statusCode(), 200);
+}
+Second way is with RequestSpecBuilder
+
+spec = new RequestSpecBuilder()
+                .setContentType(ContentType.JSON)
+                ...
+                .addFilter(new AllureRestAssured())
+                ...
+                .build();
+To create our report first run these command after test run.
+
+mvn clean test allure:report
+Our test report should be located in allure-report folder and should look like below.
+

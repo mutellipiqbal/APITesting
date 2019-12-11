@@ -1,0 +1,45 @@
+Postman is Chrome Extension that lets you send the HTTP request to the web. Postman lets you test web services in the easiest manner. It can be downloaded easily from Chrome web store. It is free to use tool with some cool feature for API Testing. Testing Web Services manually can be tedious and time-consuming. It also executes tests and generates HTML reports. HTML Reports can be used for Reporting purpose.
+
+Problem:-
+
+1. Execution of All API with the single click of the mouse.
+
+2. Ability to run from command line.
+
+3.Assertions to verify result for the test.
+
+4. Ability to generate an HTML Reports after test
+
+Steps for Solution
+
+1. Download and install Postman from Chrome web store
+
+2. Create a request in the Postman
+
+3. After creating a request, click on the Tests windows in the Postman and add a test to verify status code for an API
+
+4. Run the request and observe the response
+
+5. Select the request from History tab of the Postman
+
+6. Click on "Add to Collection" option for the API
+
+7. Name the collection and save all the API request inside that collection
+
+8. Open the collection run window
+
+9. Click on the run button
+
+10. After clicking on "Run" button, a separate window will open. Click the Start Test Run to run the test in Postman window.
+
+To run the test from command line window. Postman has newly npm Package (Newman).
+Install latest version of Node (Node.js)  in the computer
+Set the path of Node Bin Folder in the Computer path Variable.
+Open the cmd and type following command "npm install -g Newman”.
+It will install Newman in the PC.
+Postman provides a feature to download the collection as JSON Data.
+Download the collection from the Postman
+Open the command window in the downloaded path of collection and type following Command "newman -c CollectionName.json – H Reports.html"
+Observe the Command window in the Postman
+ Observe the Reports.html in the same Directory
+To view the output JSON data of API  , modify  the command as "newman -c CollectionName.json  -O output.json – H Reports.html"
