@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/reporting/surefireReport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonToJava/JsonConverteing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonToJava/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/myapi/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myapi/proxy/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Assert01">
+  <component name="RunManager" selected="Application.JsonConverteing">
+    <configuration name="JsonConverteing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonToJava.JsonConverteing" />
+      <module name="myApiPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myapi.jsonToJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddingCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
@@ -104,33 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assert01.jUnitAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonConverteing.getAstudentInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myApiPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myapi.assertion.*" />
+          <option name="PATTERN" value="com.myapi.jsonToJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.assertion" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.assertion.Assert01" />
-      <option name="METHOD_NAME" value="jUnitAssert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleAlluredReport.jUnitAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myApiPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myapi.reporting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.myapi.reporting" />
-      <option name="MAIN_CLASS_NAME" value="com.myapi.reporting.SimpleAlluredReport" />
-      <option name="METHOD_NAME" value="jUnitAssert" />
+      <option name="PACKAGE_NAME" value="com.myapi.jsonToJava" />
+      <option name="MAIN_CLASS_NAME" value="com.myapi.jsonToJava.JsonConverteing" />
+      <option name="METHOD_NAME" value="getAstudentInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonConverteing" />
+        <item itemvalue="JUnit.JsonConverteing.getAstudentInfo" />
         <item itemvalue="JUnit.Assert01" />
         <item itemvalue="JUnit.AddingCookies" />
         <item itemvalue="JUnit.SimpleAlluredReport.simpleReport" />
-        <item itemvalue="JUnit.SimpleAlluredReport.jUnitAssert" />
-        <item itemvalue="JUnit.Assert01.jUnitAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +171,8 @@
       <workItem from="1575167862196" duration="24055000" />
       <workItem from="1575495625705" duration="24031000" />
       <workItem from="1575751539147" duration="9263000" />
-      <workItem from="1575931678765" duration="19771000" />
+      <workItem from="1575931678765" duration="21688000" />
+      <workItem from="1576116988798" duration="2336000" />
     </task>
     <servers />
   </component>
