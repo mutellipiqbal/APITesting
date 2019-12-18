@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380b2817-7889-47bf-8ba2-29d4fc3f9314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonToJava/JsonConverteing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/jsonToJava/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/grouping/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/grouping/Tagging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myapi/testWatcher/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/BookIt_With_Bearer_Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/DeserializingJsonToJavaObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Full_Cycle_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HR_ORDS_REST_API_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/HamCrestLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/JsonSchemaValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RestApiDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RestPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/RoleBasedAccessControlTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SendingPostRequests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/SpartanRest_Weekend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/Spartan_Rest_API_Sunday.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestPractice/TestBase.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/studentJarFile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -41,23 +57,24 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice" />
+      <recent name="D:\IdeaProjects\myApiPractice\src" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\myApiPractice" />
-      <recent name="D:\IdeaProjects\myApiPractice\target" />
-      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.myapi.equestSpecification" />
       <recent name="com.myapi.logging" />
       <recent name="util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\myApiPractice\src\studentJarFile" />
       <recent name="D:\IdeaProjects\myApiPractice" />
-      <recent name="D:\IdeaProjects\myApiPractice\src" />
-      <recent name="D:\IdeaProjects\myApiPractice\src\test\java" />
+      <recent name="D:\IdeaProjects\myApiPractice\target" />
+      <recent name="D:\IdeaProjects\myApiPractice\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +189,8 @@
       <workItem from="1575495625705" duration="24031000" />
       <workItem from="1575751539147" duration="9263000" />
       <workItem from="1575931678765" duration="21688000" />
-      <workItem from="1576116988798" duration="2336000" />
+      <workItem from="1576116988798" duration="2666000" />
+      <workItem from="1576704055876" duration="3750000" />
     </task>
     <servers />
   </component>
